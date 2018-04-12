@@ -8,6 +8,9 @@
 *.apk
 *.ap_
 
+#app/
+app/proguard-rules.pro
+
 # Files for the ART/Dalvik VM
 *.dex
 
@@ -22,6 +25,11 @@ out/
 # Gradle files
 .gradle
 .gradle/
+gradle.properties
+gradle/
+gradlew
+gradlew.bat
+settings.gradle
 build/
 
 # Signing files
@@ -63,6 +71,7 @@ obj/
 /out/
 
 # User-specific configurations
+.idea/
 .idea/libraries/
 .idea/workspace.xml
 .idea/tasks.xml
